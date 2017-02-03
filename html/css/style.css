@@ -3,7 +3,7 @@ body{
 }
 
 
-/*** header ÃÂ½ÃÂ°Ã‘â€¡ÃÂ°ÃÂ»ÃÂ¾ ***/
+/*** header начало ***/
 img{
 	max-width: 100%;
 	height: auto;
@@ -63,9 +63,9 @@ header .row-fluid{
 
 
 
-/*** header ÃÂºÃÂ¾ÃÂ½ÃÂµÃ‘â€  ***/
+/*** header конец  ***/
 
-/*** nav ÃÂ½ÃÂ°Ã‘â€¡ÃÂ°ÃÂ»ÃÂ¾ ***/
+/*** nav начало ***/
 
 nav, content-top, content-center{
     max-width: 1200px;
@@ -125,9 +125,9 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
     margin-left:12%;
 }
 
-/*** nav ÃÂºÃÂ¾ÃÂ½ÃÂµÃ‘â€  ***/
+/*** nav конец  ***/
 
-/*** content-top ÃÂ½ÃÂ°Ã‘â€¡ÃÂ°ÃÂ»ÃÂ¾ ***/
+/*** content-top начало ***/
 
 .content-top-center h3{
    font-family: FiraSans-ExtraBold.otf; 
