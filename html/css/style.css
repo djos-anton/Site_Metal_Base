@@ -1,3 +1,31 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeue-Black.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: FiraSans-Bold;
+    src: url(../fonts/FiraSans-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: ExtraBold;
+    src: url(../fonts/FiraSans-ExtraBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Light;
+    src: url(../fonts/FiraSans-Light.otf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(../fonts/FiraSans-Regular.otf);
+}
+
 body{
     /* background: #e9e6e6; */
 }
@@ -43,8 +71,7 @@ header .row-fluid{
 }
 
 .header-left p, .header-right p{
-    font-family: FiraSans-Bold.otf;
-    font-weight: bold;
+    font-family: FiraSans-Bold;
 }
 
 .header-left p{
@@ -113,8 +140,7 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 }
 
 .nav-right h1, .nav-right h2{
-    font-family: HelveticaNeue-Black.otf;
-    font-weight: bold;
+    font-family: HelveticaNeue;
     text-transform: uppercase;
     text-shadow: 5px 5px 5px black;  
 }
@@ -130,14 +156,13 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 /*** content-top начало ***/
 
 .content-top-center h3{
-   font-family: FiraSans-ExtraBold.otf; 
-   font-weight: bold;
+   font-family: ExtraBold; 
    text-align: center;
    margin-top:0;
 }
 
 .content-top-center p{
-   font-family: Fira Sans Regular; 
+   font-family: Regular; 
    text-align: left;
    margin:0 auto;
    padding-left:13%;
@@ -175,7 +200,7 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 
 
 .imgs p{
-    font-family: Fira Sans Light;
+    font-family: Light;
     float: initial;
     text-transform: uppercase;
     color: #5f3296;
@@ -203,8 +228,7 @@ content-bottom{
 
 
 content-bottom h3{
-   font-family: FiraSans-ExtraBold.otf; 
-   font-weight: bold;
+   font-family: ExtraBold; 
    text-align: center;
    padding-top: 40px;
 }
