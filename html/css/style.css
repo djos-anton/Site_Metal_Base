@@ -31,7 +31,7 @@ body{
 }
 
 
-/*** header начало ***/
+/*** header Ð½Ð°Ñ‡Ð°Ð»Ð¾ ***/
 img{
 	max-width: 100%;
 	height: auto;
@@ -90,9 +90,9 @@ header .row-fluid{
 
 
 
-/*** header конец  ***/
+/*** header ÐºÐ¾Ð½ÐµÑ†Â  ***/
 
-/*** nav начало ***/
+/*** nav Ð½Ð°Ñ‡Ð°Ð»Ð¾ ***/
 
 nav, content-top, content-center{
     max-width: 1200px;
@@ -152,9 +152,9 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
     margin-left:12%;
 }
 
-/*** nav конец  ***/
+/*** nav ÐºÐ¾Ð½ÐµÑ†Â  ***/
 
-/*** content-top начало ***/
+/*** content-top Ð½Ð°Ñ‡Ð°Ð»Ð¾ ***/
 
 .content-top-center h3{
    font-family: ExtraBold; 
@@ -262,15 +262,18 @@ footer-top{
         border: none;
 }
 
-a.btn.btn-primary.btn-lg.active.btn-block.footer-top-i{
+a.btn.btn-primary.btn-lg.btn-block.footer-top-i{
     background: #7ca5d9;
+    border-radius: 0;
 }
 
-a.btn.btn-primary.btn-lg.active.btn-block.footer-top-ii{
+a.btn.btn-primary.btn-lg.btn-block.footer-top-ii{
     background: #8392cb;
+    border-radius: 0;
 }
 
-a.btn.btn-primary.btn-lg.active.btn-block.footer-top-iii{
+a.btn.btn-primary.btn-lg.btn-block.footer-top-iii{
     background: #3e5f89;
+    border-radius: 0;
 }
 /*** footer-top ***/
