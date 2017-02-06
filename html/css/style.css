@@ -25,13 +25,13 @@
     font-family: Regular;
     src: url(../fonts/FiraSans-Regular.otf);
 }
-
+ 
 body{
-    /* background: #e9e6e6; */
+    /* background: #e9e6e6; */  
 }
 
+/*** header ***/
 
-/*** header Ð½Ð°Ñ‡Ð°Ð»Ð¾ ***/
 img{
 	max-width: 100%;
 	height: auto;
@@ -88,11 +88,9 @@ header .row-fluid{
     padding-right: 15%;
 }
 
+/*** header ***/
 
-
-/*** header ÐºÐ¾Ð½ÐµÑ†Â  ***/
-
-/*** nav Ð½Ð°Ñ‡Ð°Ð»Ð¾ ***/
+/*** nav ***/
 
 nav, content-top, content-center{
     max-width: 1200px;
@@ -152,9 +150,13 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
     margin-left:12%;
 }
 
-/*** nav ÐºÐ¾Ð½ÐµÑ†Â  ***/
+.carousel-caption{
+    top: 35%;
+}
 
-/*** content-top Ð½Ð°Ñ‡Ð°Ð»Ð¾ ***/
+/*** nav ***/
+
+/*** content-top ***/
 
 .content-top-center h3{
    font-family: ExtraBold; 
@@ -188,7 +190,11 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 .content-bottom-IV,
 .content-top-center,
 .nav-left,
-.nav-right{
+.nav-right,
+.footer-center-right,
+.footer-center-left,
+.footer-bottom-right,
+.footer-bottom-left{
     outline: 1px solid #5461fa; 
 }
 
@@ -215,6 +221,7 @@ content-center{
     outline: 1px solid #ed1818; 
     display: block;
 }
+
 /*** content-center ***/
 
 /*** content-bottom ***/
@@ -227,6 +234,9 @@ content-bottom{
     height: 360px;
 }
 
+content-bottom .container-fluid{
+    padding: 24px 100px 0;
+}
 
 content-bottom h3{
    font-family: ExtraBold; 
@@ -234,16 +244,28 @@ content-bottom h3{
    padding-top: 40px;
 }
 
-
 .btm-img img {
     border: 5px solid #fff;
     border-radius: 50%;
     width:25%;
+    margin-left:35%;
 }
+
+.btm-img h4{
+    font-family: Regular;
+    padding-left: 75px;
+    padding-top: 10px;
+}
+
+.btm-img p{
+    font-family: Regular;
+    font-size:13px;
+    padding-left: 75px;
+}
+
 /*** content-bottom ***/
 
 /*** footer-top ***/
-
 
 footer-top{
     max-width: 930px;
@@ -256,10 +278,9 @@ footer-top{
     padding: 0;
 }
 
-
 .footer-top-btn a{
-        font-size: 18px;
-        border: none;
+    font-size: 18px;
+    border: none;
 }
 
 a.btn.btn-primary.btn-lg.btn-block.footer-top-i{
@@ -276,4 +297,94 @@ a.btn.btn-primary.btn-lg.btn-block.footer-top-iii{
     background: #3e5f89;
     border-radius: 0;
 }
+
 /*** footer-top ***/
+
+/*** footer-center ***/
+
+footer-center{
+    max-width: 1130px;
+    margin: 40px auto 0;
+    outline: 1px solid #ed1818; 
+    display: block;
+    height: 360px;
+}
+
+/*** footer-center ***/
+
+/*** footer-bottom ***/
+
+footer-bottom{
+    max-width: 1372px;
+    margin: 40px auto 0;
+    background-image: url(../img/ялта.png);
+    background-repeat: no-repeat;
+    display: block;
+    height:431px;
+    border-left:4px solid #d4e5ce;
+    border-right:4px solid #aacbd9;
+}
+
+.contacts{
+    outline: 1px solid #ed1818;
+}
+
+.mail{
+    background: #fff;
+    width: 400px;
+    height: 330px;
+    border-radius: 8px;
+    margin-top:50px;
+    margin-left:20%;
+}
+
+.mail h4{
+    font-family: FiraSans-Bold;
+    text-transform: uppercase;
+    font-size:20px;
+    padding-top:40px;
+    padding-left: 36px;
+    margin: 0;
+    line-height:20px;
+}
+
+.mail p{
+    font-family: Light;
+    font-size:15px;
+    padding-left: 36px;
+}
+
+/*** footer-bottom ***/
+
+/*** nav-bottom ***/
+
+nav-bottom{
+    max-width: 1372px;
+    background: #e8e8e8;
+    margin: 0 auto;
+/*    outline: 1px solid #ed1818; */
+    display: block;
+    height: 111px;    
+}
+
+/*** footer-bottom ***/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+	
+}
+
+/* Extra small Devices, Phones */
+@media only screen and (max-width: 480px) {
+	
+}
