@@ -55,7 +55,7 @@ header .container-fluid{
 }
 
 .header-left, .header-center, .header-right{
-    outline: 1px solid #ed1818;
+ /*   outline: 1px solid #ed1818;    */
 }
 
 header .row-fluid{
@@ -101,7 +101,7 @@ header .row-fluid{
 nav, content-top, content-center{
     max-width: 1200px;
     margin: 62px auto 0;
-    outline: 1px solid #ed1818;   
+/*    outline: 1px solid #ed1818;   */
     display: block;
 }
 
@@ -202,7 +202,7 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 .footer-bottom-right,
 .footer-bottom-left,
 .media{
-    outline: 1px solid #5461fa; 
+ /*   outline: 1px solid #5461fa; */
 }
 
 .imgs img{
@@ -225,7 +225,7 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 content-center{
     max-width: 800px;
     margin: 60px auto 0;
-    outline: 1px solid #ed1818; 
+/*    outline: 1px solid #ed1818; */
     display: block;
 }
 
@@ -277,7 +277,7 @@ content-bottom h3{
 footer-top{
     max-width: 930px;
     margin: 50px auto 0;
-    outline: 1px solid #ed1818; 
+ /*   outline: 1px solid #ed1818; */
     display: block;
 }
 
@@ -312,7 +312,7 @@ a.btn.btn-primary.btn-lg.btn-block.footer-top-iii{
 footer-center{
     max-width: 1130px;
     margin: 40px auto 0;
-    outline: 1px solid #ed1818; 
+  /*  outline: 1px solid #ed1818; */
     display: block;
 }
 
@@ -330,7 +330,7 @@ h4.media-heading {
 .media-body p{
     font-family: Regular;
     font-size:16px;
-     margin-left:30px;
+    margin-left:30px;
 
 }
 
@@ -370,7 +370,7 @@ footer-bottom{
 }
 
 .contacts{
-    outline: 1px solid #ed1818;
+  /*  outline: 1px solid #ed1818;  */
 }
 
 .mail{
@@ -428,20 +428,19 @@ button.btn.btn-default:hover{
     font-size: 18px;
     background: #4b84cc;
     text-shadow: 0px 3px 3px black; 
-        color:#fff;
+    color:#fff;
 }
 
 /*** footer-bottom ***/
 
 /*** nav-bottom ***/
 
-nav-bottom{
+nav.navbar.navbar-default{
     max-width: 1372px;
     background: #e8e8e8;
     margin: 0 auto;
-/*    outline: 1px solid #ed1818; */
     display: block;
-    height: 111px;    
+    height: 111px;   
 }
 
 /*** footer-bottom ***/
