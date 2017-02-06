@@ -25,6 +25,12 @@
     font-family: Regular;
     src: url(../fonts/FiraSans-Regular.otf);
 }
+
+@font-face {
+    font-family: Medium;
+    src: url(../fonts/FiraSans-Medium.otf);
+    font-weight: bold;
+}
  
 body{
     /* background: #e9e6e6; */  
@@ -194,7 +200,8 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 .footer-center-right,
 .footer-center-left,
 .footer-bottom-right,
-.footer-bottom-left{
+.footer-bottom-left,
+.media{
     outline: 1px solid #5461fa; 
 }
 
@@ -307,7 +314,24 @@ footer-center{
     margin: 40px auto 0;
     outline: 1px solid #ed1818; 
     display: block;
-    height: 360px;
+}
+
+.media img{
+    max-width: none;
+}
+
+h4.media-heading {
+    font-family: Medium;
+    font-size:25px;
+    margin-top:20px;
+    margin-left:30px;
+}
+
+.media-body p{
+    font-family: Regular;
+    font-size:16px;
+     margin-left:30px;
+
 }
 
 /*** footer-center ***/
