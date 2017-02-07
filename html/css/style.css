@@ -37,13 +37,8 @@
     src: url(../fonts/FiraSans-Medium.otf);
     font-weight: bold;
 }
- 
-body{
-    /* background: #e9e6e6; */  
-}
 
 /*** header ***/
-
 img{
 	max-width: 100%;
 	height: auto;
@@ -61,7 +56,7 @@ header .container-fluid{
 }
 
 .header-left, .header-center, .header-right{
- /*   outline: 1px solid #ed1818;    */
+  /*  outline: 1px solid #ed1818;    */
 }
 
 header .row-fluid{
@@ -100,15 +95,12 @@ header .row-fluid{
     text-align: right;
     padding-right: 15%;
 }
-
 /*** header ***/
 
 /*** nav ***/
-
 nav, content-top, content-center{
     max-width: 1200px;
     margin: 62px auto 0;
-/*    outline: 1px solid #ed1818;   */
     display: block;
 }
 
@@ -167,11 +159,9 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 .carousel-caption{
     top: 35%;
 }
-
 /*** nav ***/
 
 /*** content-top ***/
-
 .content-top-center h3{
    font-family: ExtraBold; 
    text-align: center;
@@ -190,11 +180,9 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
     border-bottom: 1px solid #a2a2a2;
     margin: 10px 450px;
 }
-
 /*** content-top ***/
 
 /*** content-center ***/
-
 .content-center-left,
 .content-center-center,
 .content-center-right,
@@ -210,9 +198,8 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 .footer-bottom-right,
 .footer-bottom-left,
 .media{
-  /*  outline: 1px solid #5461fa; */
+ /*   outline: 1px solid #5461fa; */
 }
-
 
 .imgs img{
     float: left;
@@ -220,7 +207,6 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
     margin-right:10px;
     width:25%;
 }
-
 
 .imgs p{
     font-family: Light;
@@ -234,14 +220,11 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 content-center{
     max-width: 800px;
     margin: 60px auto 0;
-/*    outline: 1px solid #ed1818; */
     display: block;
 }
-
 /*** content-center ***/
 
 /*** content-bottom ***/
-
 content-bottom{
     background-image:url(../img/cont-bg.jpg);
     max-width: 1372px;
@@ -317,15 +300,12 @@ content-bottom h3{
     font-size:13px;
     padding-left: 75px;
 }
-
 /*** content-bottom ***/
 
 /*** footer-top ***/
-
 footer-top{
     max-width: 930px;
     margin: 50px auto 0;
- /*   outline: 1px solid #ed1818; */
     display: block;
 }
 
@@ -352,15 +332,12 @@ a.btn.btn-primary.btn-lg.btn-block.footer-top-iii{
     background: #3e5f89;
     border-radius: 0;
 }
-
 /*** footer-top ***/
 
 /*** footer-center ***/
-
 footer-center{
     max-width: 1130px;
     margin: 40px auto 0;
-  /*  outline: 1px solid #ed1818; */
     display: block;
 }
 
@@ -384,13 +361,10 @@ h4.media-heading {
     font-family: Regular;
     font-size:16px;
     margin-left:30px;
-
 }
-
 /*** footer-center ***/
 
 /*** footer-bottom ***/
-
 footer-bottom{
     max-width: 1372px;
     margin: 40px auto 0;
@@ -420,10 +394,6 @@ footer-bottom{
 
 .footer-bottom-right h5{
     font-size:25px
-}
-
-.contacts{
-  /*  outline: 1px solid #ed1818;  */
 }
 
 .mail{
@@ -483,11 +453,9 @@ button.btn.btn-default:hover{
     text-shadow: 0px 3px 3px black; 
     color:#fff;
 }
-
 /*** footer-bottom ***/
 
 /*** nav-bottom ***/
-
 nav.navbar.navbar-default{
     max-width: 1372px;
     background: #e8e8e8;
@@ -507,7 +475,6 @@ ul.nav.navbar-nav a{
     font-size: 18px;
 }
 
-
 ul.nav.navbar-nav a:hover{
     color:#337ab7;
     font-size: 18px;
@@ -517,14 +484,61 @@ ul.nav.navbar-nav a:hover{
     margin-top:35px;
     margin-left:50px;
 }
-
 /*** footer-bottom ***/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+    
+header{
+    margin: 0 auto;
+}
 	
+.header-left p{
+    padding-left: 0;
 }
 
+.header-right p{
+    padding-right: 0;
+}
+	
+.ttt{
+    margin-left:175px;
+	top: 127px;
+	width: 65%;
+}
+
+.round-red-1,
+.round-red-2,
+.round-red-3{
+    top: 118px; 
+}
+
+.round-red-1{
+    left: 320px;  
+}
+
+.round-red-2{
+    left: 577px;  
+}
+
+.round-red-3{
+    left: 834px;  
+}
+
+content-bottom .container-fluid{
+    padding: 24px 100px 0 75px;
+}
+
+.mail{
+    margin-left:29%;
+}
+
+.footer-bottom-right{
+    padding-top: 16%;
+    padding-right:4%;
+}
+
+}
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
 	
