@@ -202,7 +202,7 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 .footer-bottom-right,
 .footer-bottom-left,
 .media{
- /*   outline: 1px solid #5461fa; */
+    outline: 1px solid #5461fa; 
 }
 
 .imgs img{
@@ -234,11 +234,50 @@ content-center{
 /*** content-bottom ***/
 
 content-bottom{
-    background: #bfbbbb;
+    background-image:url(../img/cont-bg.jpg);
     max-width: 1372px;
     margin: 60px auto;
     display: block;
-    height: 360px;
+    height: 360px; 
+    position: relative; 
+}
+
+hr{
+	padding: 0;
+	border: none;
+}
+	
+.ttt{
+	position: absolute;
+	top: 132px;
+	width: 66%;
+	margin-left:220px;
+	border-top:4px dotted #000;
+}
+
+.round-red-1,
+.round-red-2,
+.round-red-3{
+    background:#f24841;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 123px; 
+}
+
+.round-red-1{
+    left: 373px;  
+}
+
+.round-red-2{
+    left: 670px;  
+}
+
+.round-red-3{
+    left: 963px;  
 }
 
 content-bottom .container-fluid{
@@ -417,7 +456,7 @@ button.btn.btn-default{
     margin-top:15px;
     border-radius: 0;
     font-size: 18px;
-    box-shadow: 0 1px 0px #3a5270;
+    box-shadow: 0 2px 0px #3a5270;
     border: none;
     padding-left:20px;
     padding-right:20px;
@@ -441,6 +480,28 @@ nav.navbar.navbar-default{
     margin: 0 auto;
     display: block;
     height: 111px;   
+}
+
+.navbar-brand>img {
+    display: block;
+    margin-top: 12px;
+    margin-left:100px;
+}
+
+ul.nav.navbar-nav a{
+    color:#000;
+    font-size: 18px;
+}
+
+
+ul.nav.navbar-nav a:hover{
+    color:#337ab7;
+    font-size: 18px;
+}
+
+.nav.navbar-nav{
+    margin-top:35px;
+    margin-left:50px;
 }
 
 /*** footer-bottom ***/
