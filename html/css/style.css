@@ -45,55 +45,64 @@ img{
 }
 
 header{
-    max-width: 1372px;
-    margin: 0 auto;
-}
-
-header .container-fluid{
     background: #d1d1d1;
-    height: 100px;
     box-shadow: 0 3px 3px #000; 
-}
-
-.header-left, .header-center, .header-right{
-  /*  outline: 1px solid #ed1818;    */
-}
-
-header .row-fluid{
+    height: 100px;
+    max-width: 1372px;
+    min-width: 320px;
     margin: 0 auto;
+}
+
+.block{
+    float:left;
+    width:33%;
+    outline:1px solid #2c9cb1;
+}
+
+.header-center{
+	text-align:center;
 }
 
 .header-center img{
-    margin-left: 34%;
     margin-top: 10px;
 }
 
 .glyphicon-home:before {
     content: "\e021";
-    font-size: 19px;
+}
+
+.glyphicon-phone:before {
+    content: "\e145";   
+}
+
+.glyphicon-home:before,
+.glyphicon-phone:before{
+	font-size: 19px;
     color: #fdf701;
 }
 
-.col-lg-4.header-right {
+header-right {
     margin-top: 25px;
 }
 
-.header-left p, .header-right p{
+.header-left,
+.header-right{
     font-family: FiraSans-Bold;
 }
 
-.header-left p{
+.header-left{
     font-size: 16px;
-    padding-top: 40px;
-    padding-left: 15%;
+    padding-top: 35px;
+    padding-left: 7%;
 }
 
-.header-right p{
+.header-right{
     font-size: 24px;
     margin-bottom: 0;
     line-height: 27px;
     text-align: right;
-    padding-right: 15%;
+    padding-right: 6%;
+    padding-top:20px;
 }
 /*** header ***/
 
@@ -136,12 +145,6 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 
 .col-lg-10.nav-right {
     padding: 0;
-}
-
-.glyphicon-phone:before {
-    content: "\e145";
-    font-size: 19px;
-    color: #fdf701;
 }
 
 .nav-right h1, .nav-right h2{
@@ -488,18 +491,6 @@ ul.nav.navbar-nav a:hover{
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-    
-header{
-    margin: 0 auto;
-}
-	
-.header-left p{
-    padding-left: 0;
-}
-
-.header-right p{
-    padding-right: 0;
-}
 	
 .ttt{
     margin-left:175px;
