@@ -491,6 +491,14 @@ ul.nav.navbar-nav a:hover{
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+
+.header-left{
+    padding-left: 0;
+}
+
+.header-right{
+    padding-right: 0;
+}
 	
 .ttt{
     margin-left:175px;
