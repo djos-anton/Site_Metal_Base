@@ -363,7 +363,7 @@ footer-bottom{
     background-image: url(../img/ialta.png);
     background-repeat: no-repeat;
     display: block;
-    height:431px;
+    
     border-left:4px solid #d4e5ce;
     border-right:4px solid #aacbd9;
 }
@@ -395,6 +395,7 @@ footer-bottom{
     border-radius: 8px;
     margin-top:50px;
     margin-left:20%;
+    margin-bottom:61px;
 }
 
 .mail h4{
@@ -555,6 +556,10 @@ h4.media-heading {
     margin-left:10px;
 }
 
+footer-bottom{
+	border:0 none;
+}
+   
 .footer-bottom-left{
     padding-top: 16%;
     padding-right:4%;
@@ -647,6 +652,10 @@ content-bottom .container-fluid{
 	font-size:15px;
 }
 
+footer-bottom{
+	border:0 none;
+}
+
 .footer-bottom-left{
     padding:150px 0 0;
 }
@@ -710,7 +719,8 @@ ul.nav.navbar-nav li a{
 nav,
 content-top,
 content-center,
-content-bottom{
+content-bottom,
+footer-top{
 	margin-top:5%;
 }
 
@@ -760,7 +770,7 @@ content-bottom h3{
 }
 
 content-bottom .container-fluid{
-    padding: 14px 10px 0;
+    padding: 0 10px ;
     
 }
 
@@ -774,17 +784,55 @@ content-bottom .container-fluid{
 .btm-img img{
 	margin-left:0;
 	width:60px;
-	vertical-align:middle;
-
+	margin-top:20px;
 }
 
 .btm-img h4{
-	padding-left:5px;
+	padding-left:11px;
+	font-size: 20px;
 }
 
 .btm-img img,
 .btm-img h4{
-	display:inline-block
+	display:inline;
+}
+
+.btm-img p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-top:-20px;
+}
+
+h4.media-heading {
+    font-size: 22px;
+}
+
+footer-bottom{
+	border:0 none;
+}
+
+.footer-bottom-left{
+	padding:0;
+}
+
+.footer-bottom-left h3,
+.footer-bottom-left h5{
+    font-size:25px;
+    text-align:center;
+}
+
+.mail{
+	margin:0 auto 24px;
+	height:300px;
+}
+
+button.navbar-toggle.collapsed{
+	margin-top: 35px;
+	margin-right: 35px;
+}
+
+.navbar-brand>img {
+    margin-left:0px;
 }
 	
 }
@@ -816,5 +864,5 @@ content-bottom .container-fluid{
 .footer-bottom-left,
 .media,
 .block{
-  /*  outline: 1px solid #5461fa;   */
+   /* outline: 1px solid #5461fa;   */
 }
