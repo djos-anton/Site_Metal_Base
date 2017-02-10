@@ -39,6 +39,11 @@
 }
 
 /*** header ***/
+.header-left-hidden,
+.header-right-hidden{
+	display: none;
+}
+
 img{
 	max-width: 100%;
 	height: auto;
@@ -55,8 +60,7 @@ header{
 
 .block{
     float:left;
-    width:33%;
-    outline:1px solid #2c9cb1;     
+    width:33%;    
 }
 
 .header-center{
@@ -107,6 +111,10 @@ header-right {
 /*** header ***/
 
 /*** nav ***/
+nav{
+	background:#add2ec;
+}
+
 nav, content-top, content-center{
     max-width: 1200px;
     margin: 62px auto 0;
@@ -130,7 +138,6 @@ nav, content-top, content-center{
 a.btn.btn-primary.btn-lg.active.btn-block {
     border-radius: 0;
     background: #7ca5d9;
-    font-size: 18px;
     border: none;
     box-shadow: 0 2px 0px #3a5270;
 }
@@ -138,7 +145,6 @@ a.btn.btn-primary.btn-lg.active.btn-block {
 a.btn.btn-primary.btn-lg.active.btn-block:hover {
     border-radius: 0;
     background: #4b84cc;
-    font-size: 18px;
     text-shadow: 0px 3px 3px black;   
 }
 
@@ -185,23 +191,7 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 /*** content-top ***/
 
 /*** content-center ***/
-.content-center-left,
-.content-center-center,
-.content-center-right,
-.content-bottom-I,
-.content-bottom-II,
-.content-bottom-III,
-.content-bottom-IV,
-.content-top-center,
-.nav-left,
-.nav-right,
-.footer-center-right,
-.footer-center-left,
-.footer-bottom-right,
-.footer-bottom-left,
-.media{
-    outline: 1px solid #5461fa;   
-}
+
 
 .imgs img{
     float: left;
@@ -232,7 +222,6 @@ content-bottom{
     max-width: 1372px;
     margin: 60px auto;
     display: block;
-    height: 360px; 
     position: relative; 
 }
 
@@ -301,6 +290,7 @@ content-bottom h3{
     font-family: Regular;
     font-size:13px;
     padding-left: 75px;
+    padding-bottom:60px;
 }
 /*** content-bottom ***/
 
@@ -391,11 +381,11 @@ footer-bottom{
 }
 
 .footer-bottom-left h3{
-    font-size:40px
+    font-size:40px;
 }
 
 .footer-bottom-left h5{
-    font-size:25px
+    font-size:25px;
 }
 
 .mail{
@@ -657,13 +647,174 @@ content-bottom .container-fluid{
 	font-size:15px;
 }
 
+.footer-bottom-left{
+    padding:150px 0 0;
+}
+
+.footer-bottom-left h3{
+    font-size:25px;
+}
+
+.footer-bottom-left h5{
+    font-size:20px;
+}
+
+.mail{
+    margin-left:30px;
+}
+
+.navbar-brand>img {
+    margin-left:0px;
+}
+
+.container-fluid>.navbar-collapse{
+    margin-right: none;
+}
+
+ul.nav.navbar-nav li a{
+    font-size: 16px;
+}
+
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
+
+.block{
+	display:none
+}
+
+.header-left-hidden,
+.header-right-hidden{
+	display: inline-block;
+	font-family: FiraSans-Bold;
+	vertical-align:middle;
+	margin-top:5px;
+	width:49%;
+}
+
+.header-left-hidden,
+.header-right-hidden,
+.glyphicon-home:before,
+.glyphicon-phone:before{
+	font-size: 16px;
+}
+
+.header-left-hidden{
+	padding-left:5px;
+}
+
+.header-right-hidden{
+	text-align:right;
+}
+
+nav,
+content-top,
+content-center,
+content-bottom{
+	margin-top:5%;
+}
+
+.nav-left li{
+    margin-bottom: 3%;
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.nav-right h1{
+    font-size: 25px;
+}
+
+.nav-right h2{
+    font-size: 20px;
+    margin-top:0;
+    margin-left:18%;
+}
+
+.carousel-caption{
+    top: 20%;
+}
+
+.content-top-center p{
+	padding:0;
+}
+
+.imgs img{
+	width:40px;
+	vertical-align:middle;
+	margin-left:30%;
+}
+
+.imgs p{
+	vertical-align:middle;
+}
+
+content-bottom{
+	margin-bottom:0;
+
+}
+
+content-bottom h3{
+	padding-top:5%;
+	font-size:21px;
+}
+
+content-bottom .container-fluid{
+    padding: 14px 10px 0;
+    
+}
+
+.ttt,
+.round-red-1,
+.round-red-2,
+.round-red-3{
+    display: none; 
+}
+
+.btm-img img{
+	margin-left:0;
+	width:60px;
+	vertical-align:middle;
+
+}
+
+.btm-img h4{
+	padding-left:5px;
+}
+
+.btm-img img,
+.btm-img h4{
+	display:inline-block
+}
 	
 }
 
 /* Extra small Devices, Phones */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 499px) {
+
+.nav-right h1,
+.nav-right h2{
+    display:none;
+}
 	
+}
+
+
+.content-center-left,
+.content-center-center,
+.content-center-right,
+.content-bottom-I,
+.content-bottom-II,
+.content-bottom-III,
+.content-bottom-IV,
+.content-top-center,
+.nav-left,
+.nav-right,
+.footer-center-right,
+.footer-center-left,
+.footer-bottom-right,
+.footer-bottom-left,
+.media,
+.block{
+  /*  outline: 1px solid #5461fa;   */
 }
