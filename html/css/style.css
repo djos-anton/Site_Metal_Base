@@ -85,10 +85,6 @@ header{
     color: #fdf701;
 }
 
-header-right {
-    margin-top: 25px;
-}
-
 .header-left,
 .header-right{
     font-family: FiraSans-Bold;
@@ -390,7 +386,7 @@ footer-bottom{
 }
 
 .mail{
-    background: #fff;
+    background: rgba(255, 255, 255, 0.65);
     width: 400px;
     height: 320px;
     border-radius: 8px;
@@ -891,7 +887,7 @@ h4.media-heading{
 .mail{
     width: 290px;
     height: 260px;
-    margin:0 auto 63px;
+    margin:30px auto 33px;
 }
 
 .mail h4{
