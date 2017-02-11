@@ -140,6 +140,7 @@ a.btn.btn-primary.btn-lg.active.btn-block {
     background: #7ca5d9;
     border: none;
     box-shadow: 0 2px 0px #3a5270;
+    transition: all .5s;
 }
 
 a.btn.btn-primary.btn-lg.active.btn-block:hover {
@@ -720,7 +721,9 @@ nav,
 content-top,
 content-center,
 content-bottom,
-footer-top{
+footer-top,
+footer-center,
+footer-bottom{
 	margin-top:5%;
 }
 
@@ -826,13 +829,32 @@ footer-bottom{
 	height:300px;
 }
 
-button.navbar-toggle.collapsed{
-	margin-top: 35px;
+button.navbar-toggle{
+	margin-top: 25px;
 	margin-right: 35px;
 }
 
 .navbar-brand>img {
     margin-left:0px;
+    margin-top: 0;
+}
+
+nav.navbar.navbar-default{
+    height: 90px;   
+}
+
+ul.nav.navbar-nav{
+	margin-left:-15px;
+	margin-top:20px;
+}
+
+ul.nav.navbar-nav a{
+	transition: all .5s;
+}
+
+
+ul.nav.navbar-nav a:hover{
+    background:#E8E8E8;
 }
 	
 }
@@ -843,6 +865,63 @@ button.navbar-toggle.collapsed{
 .nav-right h1,
 .nav-right h2{
     display:none;
+}
+
+img.media-object{
+	height:50%;
+}
+
+h4.media-heading,
+.media-body p{
+    margin-left:1%;
+}
+
+h4.media-heading{
+    font-size:16px; 
+}
+
+.media-body p{
+    font-size:14px; 
+}
+
+.footer-bottom-right{
+	padding:0;
+}
+
+.mail{
+    width: 290px;
+    height: 260px;
+    margin:0 auto 63px;
+}
+
+.mail h4{
+    font-size:18px;
+    padding-top:20px;
+}
+
+.mail p{
+    font-size:14px;
+}
+
+.mail h4,
+.mail p,
+form{
+    padding-left: 20px;
+}
+
+.form-group{
+    margin-top:20px;
+    width:250px;
+}
+
+button.btn.btn-default{
+    margin-top:8px;
+    margin-left:0;
+}
+
+button.btn.btn-default,
+button.btn.btn-default:hover{
+    font-size: 16px;
 }
 	
 }
@@ -863,6 +942,7 @@ button.navbar-toggle.collapsed{
 .footer-bottom-right,
 .footer-bottom-left,
 .media,
-.block{
-   /* outline: 1px solid #5461fa;   */
+.block,
+.navbar-brand>img{
+  /*  outline: 1px solid #5461fa;  */
 }
