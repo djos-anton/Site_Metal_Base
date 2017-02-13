@@ -1,7 +1,31 @@
 @font-face {
-    font-family: HelveticaNeue;
-    src: url(../fonts/HelveticaNeue-Black.otf);
-    font-weight: bold;
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans-Light.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans-ExtraBold.otf);
+    font-weight: 800;
 }
 
 @font-face {
@@ -10,32 +34,8 @@
     font-weight: bold;
 }
 
-@font-face {
-    font-family: FiraSans-Bold;
-    src: url(../fonts/FiraSans-Bold.otf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: ExtraBold;
-    src: url(../fonts/FiraSans-ExtraBold.otf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: Light;
-    src: url(../fonts/FiraSans-Light.otf);
-}
-
-@font-face {
-    font-family: Regular;
-    src: url(../fonts/FiraSans-Regular.otf);
-}
-
-@font-face {
-    font-family: FiraSans-Medium;
-    src: url(../fonts/FiraSans-Medium.otf);
-    font-weight: bold;
+body{
+	font-family: FiraSans;
 }
 
 /*** header ***/
@@ -71,6 +71,8 @@ header{
     margin-top: 10px;
 }
 
+/*
+
 .glyphicon-home:before {
     content: "\e021";
 }
@@ -79,15 +81,17 @@ header{
     content: "\e145";   
 }
 
-.glyphicon-home:before,
-.glyphicon-phone:before{
-	font-size: 19px;
+*/
+
+.fa-home,
+.fa-mobile{
+	font-size: 22px;
     color: #fdf701;
 }
 
 .header-left,
 .header-right{
-    font-family: FiraSans-Bold;
+    font-weight: 700;
 }
 
 .header-left{
@@ -98,7 +102,6 @@ header{
 
 .header-right{
     font-size: 24px;
-    margin-bottom: 0;
     line-height: 27px;
     text-align: right;
     padding-right: 6%;
@@ -117,13 +120,13 @@ nav, content-top, content-center{
     display: block;
 }
 
-.nav-left{
+.nav-left,
+.nav-left ul{
     padding: 0;
 }
 
 .nav-left ul{
-    list-style: none;
-    padding: 0;   
+    list-style: none;  
 }
 
 .nav-left li{
@@ -140,23 +143,22 @@ a.btn.btn-primary.btn-lg.active.btn-block {
 }
 
 a.btn.btn-primary.btn-lg.active.btn-block:hover {
-    border-radius: 0;
     background: #4b84cc;
     text-shadow: 0px 3px 3px black;   
 }
 
 .col-lg-10.nav-right {
+    font-family: HelveticaNeueCyr;
     padding: 0;
 }
 
 .nav-right h1, .nav-right h2{
-    font-family: HelveticaNeueCyr;
     text-transform: uppercase;
     text-shadow: 5px 5px 5px black;  
 }
 
 .nav-right h2{
-    font-style: italic;
+    font-style:italic;
     text-align:left;
     margin-left:9%;
 }
@@ -168,13 +170,13 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 
 /*** content-top ***/
 .content-top-center h3{
-   font-family: ExtraBold; 
+   font-weight: 800;
    text-align: center;
    margin-top:0;
 }
 
 .content-top-center p{
-   font-family: Regular; 
+   font-weight: 400; 
    text-align: left;
    margin:0 auto;
    padding-left:13%;
@@ -189,7 +191,6 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 
 /*** content-center ***/
 
-
 .imgs img{
     float: left;
     margin-left:30px;
@@ -198,8 +199,7 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 }
 
 .imgs p{
-    font-family: Light;
-    float: initial;
+    font-weight: 200;
     text-transform: uppercase;
     color: #5f3296;
     font-size: 15px;
@@ -209,7 +209,7 @@ a.btn.btn-primary.btn-lg.active.btn-block:hover {
 content-center{
     max-width: 800px;
     margin: 60px auto 0;
-    display: block;
+  /*  display: block; */
 }
 /*** content-center ***/
 
@@ -223,7 +223,7 @@ content-bottom{
 }
 
 hr{
-	padding: 0;
+/*	padding: 0;  */
 	border: none;
 }
 	
@@ -241,7 +241,7 @@ hr{
     background:#f24841;
     width: 20px;
     height: 20px;
-    display: inline-block;
+ /*   display: inline-block;  */
     border: 4px solid #fff;
     border-radius: 50%;
     position: absolute;
@@ -265,7 +265,8 @@ content-bottom .container-fluid{
 }
 
 content-bottom h3{
-   font-family: ExtraBold; 
+   font-family: FiraSans;
+   font-weight: 800; 
    text-align: center;
    padding-top: 40px;
 }
@@ -278,13 +279,15 @@ content-bottom h3{
 }
 
 .btm-img h4{
-    font-family: Regular;
+    font-family: FiraSans;
+    font-weight: 400;
     padding-left: 75px;
     padding-top: 10px;
 }
 
 .btm-img p{
-    font-family: Regular;
+    font-family: FiraSans;
+    font-weight: 400;
     font-size:13px;
     padding-left: 75px;
     padding-bottom:60px;
@@ -340,14 +343,16 @@ footer-center{
 }
 
 h4.media-heading {
-    font-family: FiraSans-Medium;
+    font-family: FiraSans;
+    font-weight: 500;
     font-size:25px;
     margin-top:20px;
     margin-left:30px;
 }
 
 .media-body p{
-    font-family: Regular;
+    font-family: FiraSans;
+    font-weight: 400;
     font-size:16px;
     margin-left:30px;
 }
@@ -372,7 +377,8 @@ footer-bottom{
 
 .footer-bottom-left h3,
 .footer-bottom-left h5{
-    font-family: FiraSans-Bold; 
+    font-family: FiraSans;
+    font-weight: 700; 
     margin:0;
     text-align:right;
 }
@@ -396,7 +402,8 @@ footer-bottom{
 }
 
 .mail h4{
-    font-family: FiraSans-Bold;
+    font-family: FiraSans;
+    font-weight: 700; 
     text-transform: uppercase;
     font-size:20px;
     padding-top:40px;
@@ -406,7 +413,8 @@ footer-bottom{
 }
 
 .mail p{
-    font-family: Light;
+    font-family: FiraSans;
+    font-weight: 200; 
     font-size:15px;
     padding-left: 36px;
 }
@@ -690,19 +698,23 @@ ul.nav.navbar-nav li a{
 }
 
 .header-left-hidden,
-.header-right-hidden{
-	display: inline-block;
-	font-family: FiraSans-Bold;
+.header-right-hidden{	
+	font-family: FiraSans;
+    font-weight: 700; 
+    display: inline-block;
 	vertical-align:middle;
 	margin-top:5px;
 	width:49%;
 }
 
 .header-left-hidden,
-.header-right-hidden,
-.glyphicon-home:before,
-.glyphicon-phone:before{
+.header-right-hidden{
 	font-size: 16px;
+}
+
+.fa-home,
+.fa-mobile{
+	font-size: 20px;
 }
 
 .header-left-hidden{
