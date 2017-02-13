@@ -18,6 +18,12 @@
 
 @font-face {
     font-family: FiraSans;
+    src: url(../fonts/FiraSans-SemiBold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: FiraSans;
     src: url(../fonts/FiraSans-Bold.otf);
     font-weight: 700;
 }
@@ -37,6 +43,8 @@
 body{
 	font-family: FiraSans;
 }
+
+/********************************************  FIRST PAGE  ****************************************************/
 
 /*** header ***/
 .header-left-hidden,
@@ -877,3 +885,163 @@ button.btn.btn-default:hover{
 }	
 }
 
+/********************************************  FIRST PAGE  ****************************************************/
+
+/********************************************  SECOND PAGE  ****************************************************/
+
+header-top-II,
+header-center-II,
+content-center-II,
+footer-top-II,
+footer-bottom-II,
+strip-II{
+    outline:1px solid #ea0e0e;
+}
+
+.header-top-II-center,
+.header-center-II-left,
+.header-center-II-center,
+.header-center-II-right{
+	outline:1px solid #0e46ea;
+}
+
+/*****  header-top-II  ****/
+
+header-top-II{
+	background-image:url(../img/welding-II.png);
+	max-width: 1366px;
+    margin: 0 auto;
+    display:block;
+    text-align: center;
+}
+
+header-top-II div.container-fluid{
+	padding: 0 200px;
+}
+
+.header-top-II-border,
+.header-top-II-center h1,
+.header-top-II-center h2{
+    color:#fff;
+}
+
+.header-top-II-center h1,
+.header-top-II-center h2{
+    font-weight: 800;
+}
+
+.header-top-II-center h1{
+	text-transform: uppercase;
+    text-shadow: 3px 3px 3px black;
+    padding-top:124px
+}
+
+.header-top-II-border{
+	border:1px solid #fff;
+	margin: 0 250px;
+}
+
+.header-top-II-center h2{
+	padding-bottom:130px;
+}
+/*****  header-top-II  ****/
+
+/*****  strip-II  ****/
+
+strip-II{
+	background: #526ea1;
+	max-width: 1372px;
+	display:block;
+	margin: 0 auto;
+}
+
+.strip-II-center{
+	line-height:113px;
+	text-align:-webkit-center;
+	vertical-align:middle;
+	color:#fff;
+	font-size:20px;
+	font-weight: 700;
+}
+
+.strip-II-center a{
+	color:#01010a;
+	border-bottom:1px solid;
+}
+
+.fa-book{
+	font-size:45px;
+	padding-right:40px;
+}
+/*****  strip-II  ****/
+
+/*****  header-center-II  ****/
+
+header-center-II{	
+	max-width: 960px;
+	display:block;
+	margin: 0 auto;
+	font-size:21px;
+	font-weight:600;
+	text-align:center;  
+}
+
+.header-center-II-left,
+.header-center-II-center,
+.header-center-II-right{
+	height:320px;
+	width:33.3%; 
+}
+
+.blue{
+	background:#7ca5d9;
+	height:157px;
+	width:157px;
+	margin:55px auto 25px;
+	border: 1px solid #cdcdcd;
+	color:#fff;
+	font-weight:800;
+	vertical-align:middle;
+	line-height:157px;
+}
+
+.header-center-II-left>.blue{
+	font-size:76px;
+}
+
+.header-center-II-center>.blue{
+	font-size:108px;
+}
+
+.header-center-II-right>.blue{
+	font-size:89px;
+}
+
+/*****  header-center-II  ****/
+
+/*****  content-center-II  ****/
+
+content-center-II{
+	background-image:url(../img/cont-cent-II.png);
+	max-width: 1366px;
+    margin: 0 auto;
+    display:block;
+    height:325px;
+}
+
+/*****  content-center-II  ****/
+
+footer-top-II{
+	height:113px;
+	max-width: 1372px;
+	display:block;
+	margin: 20px auto;
+}
+
+footer-bottom-II{
+	height:113px;
+	max-width: 1372px;
+	display:block;
+	margin: 20px auto;
+
+}
