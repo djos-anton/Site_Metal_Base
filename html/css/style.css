@@ -895,14 +895,17 @@ content-center-II,
 footer-top-II,
 footer-bottom-II,
 strip-II{
-    outline:1px solid #ea0e0e;
+/*     outline:1px solid #ea0e0e; */
 }
 
 .header-top-II-center,
 .header-center-II-left,
 .header-center-II-center,
-.header-center-II-right{
-	outline:1px solid #0e46ea;
+.header-center-II-right,
+.content-center-II-left img,
+.award,
+footer-bottom-II div.container-fluid{
+/* 	outline:1px solid #d4d817; */
 }
 
 /*****  header-top-II  ****/
@@ -913,21 +916,17 @@ header-top-II{
     margin: 0 auto;
     display:block;
     text-align: center;
+    color:#fff;
 }
 
 header-top-II div.container-fluid{
 	padding: 0 200px;
 }
 
-.header-top-II-border,
-.header-top-II-center h1,
-.header-top-II-center h2{
-    color:#fff;
-}
-
 .header-top-II-center h1,
 .header-top-II-center h2{
     font-weight: 800;
+    
 }
 
 .header-top-II-center h1{
@@ -937,7 +936,7 @@ header-top-II div.container-fluid{
 }
 
 .header-top-II-border{
-	border:1px solid #fff;
+	border-top:1px solid #fff;
 	margin: 0 250px;
 }
 
@@ -1027,21 +1026,104 @@ content-center-II{
     margin: 0 auto;
     display:block;
     height:325px;
+    color: #fff;
+    font-size:20px;
+}
+
+.content-center-II-left{
+	text-align:right;
+}
+
+.content-center-II-left img{
+	border-radius:50%;
+	margin-top:55px;
+}
+
+.content-center-II-border{
+	border-top:1px solid #fff;
+	margin-right:70%;
+	padding-bottom:5px;
+}
+
+.content-center-II-right p{
+	font-weight:500;
+	font-style:italic;
+	padding-right:60px;
+	padding-top:90px;
+}
+
+.content-center-II-right span{
+	font-weight:700;
+    text-transform:uppercase;
 }
 
 /*****  content-center-II  ****/
 
+/*****  footer-top-II  ****/
+
 footer-top-II{
-	height:113px;
-	max-width: 1372px;
 	display:block;
-	margin: 20px auto;
+	margin: 0 auto;
+	max-width: 960px;
 }
+
+footer-top-II h2{
+	font-family: HelveticaNeueCyr;
+    font-weight: bold;
+	text-align:center;
+	text-transform:uppercase;
+	color:#2e4877;
+	margin-top:58px;
+}
+
+.award{
+	text-align:center;
+	margin:58px 0 50px;
+}
+
+/*****  footer-top-II  ****/
+
+/*****  footer-bottom-II  ****/
 
 footer-bottom-II{
-	height:113px;
-	max-width: 1372px;
+	background-image:url(../img/bg-footer-II.png);
+	max-width: 1366px;
 	display:block;
-	margin: 20px auto;
-
+	margin: 0 auto;
+    color: #fff;
 }
+
+footer-bottom-II div.container-fluid{
+	padding: 0 200px;
+}
+
+.footer-bottom-II-center{
+	text-align:center;
+}
+
+.footer-bottom-II-border{
+	border-top:1px solid #fff;
+}
+
+.footer-bottom-II-center h2{
+	font-family: HelveticaNeueCyr;
+    font-weight: bold;
+	text-transform:uppercase;
+	margin:65px 0;
+}
+
+.footer-bottom-II-center p{
+    font-weight: 500;
+    font-style:italic;
+    font-size:21px;
+    line-height:20px;
+    margin:20px 0;
+}
+
+.footer-bottom-II-center h3{
+    font-weight: 700;
+	text-transform:uppercase;
+	padding-bottom:143px;
+}
+
+/*****  footer-bottom-II  ****/
