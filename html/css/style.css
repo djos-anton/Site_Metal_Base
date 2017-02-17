@@ -94,6 +94,7 @@ header{
     font-size: 16px;
     padding-top: 35px;
     padding-left: 7%;
+    margin-left:5px;
 }
 
 .header-right{
@@ -1277,7 +1278,6 @@ footer-top-II h2{
 
 content-top-III{
 	max-width:1372px;
-	height:320px;
 	background:#e8e8e8;
 	display:block;
 	margin:70px auto 0;
@@ -1289,9 +1289,10 @@ content-top-III{
     text-align:center;
     color:#2f3030;
     font-weight: 700;
-    font-size:40px;
+    font-size:35px;
     padding-top:74px;
-    line-height:40px;
+    line-height:35px;
+    padding-bottom:95px;
 }
 
 .content-top-III-icon span{
@@ -1323,11 +1324,11 @@ contact-III{
     max-width: 850px;
     margin: 0 auto;
     display: block;    
-    height:610px;
 }
 
 .mail-III{
     text-align:center;
+    padding-bottom:66px;    
 }
 
 .mail-III h4{
@@ -1344,9 +1345,9 @@ contact-III{
     font-size:15px;
 }
 
-.form-control{
+/* .form-control{
     background:#ddd;
-}  
+}   */
 
 .text-III{
 	width:725px;
@@ -1359,7 +1360,6 @@ contact-III{
 	width:325px;
 	height:40px;
 	margin-top:30px;
-
 } 
 
 .email-III{
@@ -1390,5 +1390,154 @@ button.btn.btn-default{
     float:right;
     margin-right:35px;
 }
-
 /*********  contact-III  ********/
+
+/* Large Devices, Wide Screens */
+@media only screen and ( min-width: 992px) and (max-width:1200px){
+
+content-top-III{
+	padding: 0;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+content-top-III{
+	padding: 0;
+}
+
+.content-top-III-icon{
+    font-size:25px;
+    line-height:25px;
+    padding:50px 15px;
+}
+
+.blok-III{
+	font-size:75px;
+}
+
+contact-III{
+    max-width: 650px;  
+}
+
+.text-III,
+textarea.form-control{
+	width:530px;
+} 
+
+.text-III{
+	margin-top:30px;
+} 
+
+.email-III,
+.tel-III{
+	width:250px;
+} 
+
+.tel-III,
+button.btn.btn-default{
+	margin-right:30px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+
+content-top-III{
+	padding: 0;
+	margin-top:30px;
+}
+
+.content-top-III-icon{
+	width:100%;
+    font-size:30px;
+    line-height:30px;
+    padding:50px 15px;
+}
+
+.mail-III{
+	padding: 0 0 35px;
+}
+
+contact-III{
+    max-width: 470px;  
+}
+
+form.form-III{
+    padding-right:30px;
+}
+
+.text-III,
+textarea.form-control,
+.email-III,
+.tel-III{
+	width:350px;
+} 
+
+.text-III{
+	margin-top:30px;
+} 
+
+.email-III,
+.tel-III{
+	float:none;	
+} 
+
+button.btn.btn-default{
+	margin: 20px 0 0;
+}
+}
+
+/* Extra small Devices, Phones */
+@media only screen and (max-width: 734px) {
+
+content-center-III{
+    max-width: 734px;
+    margin: 0 auto;
+    background-image: url(../img/ialta-III-767.png);  
+    height:308px;
+}
+}
+
+/* Extra small Devices, Phones */
+@media only screen and (max-width: 499px) {
+
+.content-top-III-icon{
+    font-size:25px;
+    padding:30px 15px;
+}
+
+.blok-III{
+	font-size:60px;
+}
+
+contact-III{
+    max-width: 290px;  
+}
+
+.text-III,
+textarea.form-control,
+.email-III,
+.tel-III{
+	width:220px;
+	margin-right:0px;
+} 
+
+textarea.form-control{
+	height:100px;
+}
+
+.text-III{
+	margin-top:30px;
+}  
+
+button.btn.btn-default{
+	margin:0;
+}
+
+.checkbox,
+button.btn.btn-default{
+	float:none;
+}
+}
