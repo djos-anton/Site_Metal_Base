@@ -1544,7 +1544,7 @@ button.btn.btn-default{
 
 /********************************************  THIRD PAGE  ****************************************************/
 
-/********************************************  FOURTH PAGE  ****************************************************/
+/********************************************  FOURTH PAGE VAR 1  ****************************************************/
 
 .content-top-center-IV h2{
 	text-transform:uppercase;
@@ -1570,3 +1570,72 @@ button.btn.btn-default{
 	font-size:18px;
 }	
 }
+
+/********************************************  FOURTH PAGE VAR 1  ****************************************************/
+
+/********************************************  FOURTH PAGE VAR 2  ****************************************************/
+
+.btn.btn-default.btn-IV-tp{
+	float:none;
+	margin:0;
+	width:100%;
+	text-transform:uppercase;
+	font-weight: 500;
+	font-size:22px;
+    line-height:26px;
+    height:70px;
+    box-shadow: 0 5px 10px #000;     
+}
+
+p.p-IV{
+	margin:20px 10px;
+	font-weight: 400;
+	font-size:14px;
+}
+
+.media-IV{
+	position:relative;
+	overflow:visible;
+	margin-bottom:84px;
+}
+
+.btn.btn-default.btn-IV-bttm{
+	float:none;
+    background:#db5e12;	
+	margin:0;
+	width:220px;
+	text-transform:uppercase;
+	font-weight: 700;
+	font-size:16px;
+    height:47px;
+    box-shadow: 0 5px 10px #000; 
+    position:absolute;
+    bottom:-38px;
+    right:0; 
+}
+
+.btn.btn-default.btn-IV-bttm:hover{
+    background: #eca749;
+    text-shadow: 0px 3px 3px black; 
+    color:#fff; 
+}
+
+/* Extra small Devices, Phones */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.fot-bot-IV{
+	margin-top:0;
+}
+}	
+
+/* Extra small Devices, Phones */
+@media only screen and (max-width: 499px) {
+
+.btn.btn-default.btn-IV-tp{
+	font-size:18px;
+    line-height:21px;
+    height:60px;    
+}	
+}
+
+/********************************************  FOURTH PAGE VAR 2  ****************************************************/
