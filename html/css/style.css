@@ -44,7 +44,7 @@ body{
 	font-family: FiraSans;
 }
 
-/********************************************  FIRST PAGE  ****************************************************/
+/********************************************  index PAGE  ****************************************************/
 
 /*** header ***/
 .header-left-hidden,
@@ -287,42 +287,43 @@ content-bottom h3{
 }
 /*** content-bottom ***/
 
-/*** footer-top ***/
-footer-top{
+/*** media-top ***/
+
+media-top{
     max-width: 930px;
     margin: 50px auto 0;
     display: block;
 }
 
-.footer-top-btn{
+.media-top-btn{
     padding: 0;
 }
 
-.footer-top-btn a{
+.media-top-btn a{
     border: none;
 }
 
-a.btn.btn-primary.btn-lg.btn-block.footer-top-i,
-a.btn.btn-primary.btn-lg.btn-block.footer-top-ii,
-a.btn.btn-primary.btn-lg.btn-block.footer-top-iii{
+a.btn.btn-primary.btn-lg.btn-block.media-top-left,
+a.btn.btn-primary.btn-lg.btn-block.media-top-center,
+a.btn.btn-primary.btn-lg.btn-block.media-top-right{
     border-radius: 0;	
 }
 
-a.btn.btn-primary.btn-lg.btn-block.footer-top-i{
+a.btn.btn-primary.btn-lg.btn-block.media-top-left{
     background: #7ca5d9;
 }
 
-a.btn.btn-primary.btn-lg.btn-block.footer-top-ii{
+a.btn.btn-primary.btn-lg.btn-block.media-top-center{
     background: #8392cb;
 }
 
-a.btn.btn-primary.btn-lg.btn-block.footer-top-iii{
+a.btn.btn-primary.btn-lg.btn-block.media-top-right{
     background: #3e5f89;
 }
-/*** footer-top ***/
+/*** media-top ***/
 
-/*** footer-center ***/
-footer-center{
+/*** media-center ***/
+media-center{
     max-width: 1130px;
     margin: 40px auto 0;
     display: block;
@@ -352,10 +353,10 @@ h4.media-heading {
     font-weight: 400;
     font-size:16px;
 }
-/*** footer-center ***/
+/*** media-center ***/
 
-/*** footer-bottom ***/
-footer-bottom{
+/*** index-contacts ***/
+index-contacts{
     max-width: 1372px;
     margin: 40px auto 0;
     background-image: url(../img/ialta.png);
@@ -365,23 +366,23 @@ footer-bottom{
     border-right:4px solid #aacbd9;
 }
 
-.footer-bottom-left{
+.index-contacts-left{
     padding-top: 14%;
     padding-right:10%;
 }
 
-.footer-bottom-left h3,
-.footer-bottom-left h5{
+.index-contacts-left h3,
+.index-contacts-left h5{
     font-weight: 700; 
     margin:0;
     text-align:right;
 }
 
-.footer-bottom-left h3{
+.index-contacts-left h3{
     font-size:40px;
 }
 
-.footer-bottom-left h5{
+.index-contacts-left h5{
     font-size:25px;
 }
 
@@ -471,7 +472,7 @@ ul.nav.navbar-nav a:hover{
     margin-top:35px;
     margin-left:50px;
 }
-/*** footer-bottom ***/
+/*** nav-bottom ***/
 
 /* Large Devices, Wide Screens */
 @media only screen and ( min-width: 992px) and (max-width:1200px){
@@ -544,11 +545,11 @@ h4.media-heading,
     margin-left:10px;
 }
 
-footer-bottom{
+index-contacts{
 	border:0 none;
 }
    
-.footer-bottom-left{
+.index-contacts-left{
     padding-top: 16%;
     padding-right:4%;
 }
@@ -630,23 +631,23 @@ content-bottom .container-fluid{
     left: 73%;  
 }
 
-.footer-top-btn a{
+.media-top-btn a{
 	font-size:15px;
 }
 
-footer-bottom{
+index-contacts{
 	border:0 none;  
 }
 
-.footer-bottom-left{
+.index-contacts-left{
     padding:150px 0 0;
 }
 
-.footer-bottom-left h3{
+.index-contacts-left h3{
     font-size:25px;
 }
 
-.footer-bottom-left h5{
+.index-contacts-left h5{
     font-size:20px;
 }
 
@@ -700,9 +701,9 @@ nav,
 content-top,
 content-center,
 content-bottom,
-footer-top,
-footer-center,
-footer-bottom{
+media-top,
+media-center,
+index-contacts{
 	margin-top:5%;
 }
 
@@ -775,16 +776,16 @@ h4.media-heading {
     font-size: 22px;
 }
 
-footer-bottom{
+index-contacts{
 	border:0 none;
 }
 
-.footer-bottom-left{
+.index-contacts-left{
 	padding:0;
 }
 
-.footer-bottom-left h3,
-.footer-bottom-left h5{
+.index-contacts-left h3,
+.index-contacts-left h5{
     font-size:25px;
     text-align:center;
 }
@@ -845,7 +846,7 @@ h4.media-heading{
     font-size:14px; 
 }
 
-.footer-bottom-right{
+.index-contacts-right{
 	padding:0;
 }
 
@@ -886,13 +887,13 @@ button.btn.btn-default:hover{
 }	
 }
 
-/********************************************  FIRST PAGE  ****************************************************/
+/********************************************  index PAGE  ****************************************************/
 
-/********************************************  SECOND PAGE  ****************************************************/
+/********************************************  about PAGE  ****************************************************/
 
-/*****  header-top-II  ****/
+/*****  header-top-about  ****/
 
-header-top-II{
+header-top-about{
 	background-image:url(../img/welding-II.png);
 	max-width: 1366px;
     margin: 0 auto;
@@ -901,41 +902,41 @@ header-top-II{
     color:#fff;
 }
 
-header-top-II div.container-fluid{
+header-top-about div.container-fluid{
 	padding: 0 200px;
 }
 
-.header-top-II-center h1,
-.header-top-II-center h2{
+.header-top-about-center h1,
+.header-top-about-center h2{
     font-weight: 800;   
 }
 
-.header-top-II-center h1{
+.header-top-about-center h1{
 	text-transform: uppercase;
     text-shadow: 3px 3px 3px black;
     padding-top:124px;
 }
 
-.header-top-II-border{
+.header-top-about-border{
 	border-top:1px solid #fff;
 	margin: 0 250px;
 }
 
-.header-top-II-center h2{
+.header-top-about-center h2{
 	padding-bottom:130px;
 }
-/*****  header-top-II  ****/
+/*****  header-top-about  ****/
 
-/*****  strip-II  ****/
+/*****  strip  ****/
 
-strip-II{
+strip{
 	background: #526ea1;
 	max-width: 1372px;
 	display:block;
 	margin: 0 auto;
 }
 
-.strip-II-center{
+.strip-center{
 	line-height:113px;
 	text-align:center;
 	vertical-align:middle;
@@ -944,7 +945,7 @@ strip-II{
 	font-weight: 700;
 }
 
-.strip-II-center a{
+.strip-center a{
 	color:#01010a;
 	border-bottom:1px solid;
 }
@@ -953,11 +954,11 @@ strip-II{
 	font-size:45px;
 	padding-right:40px;
 }
-/*****  strip-II  ****/
+/*****  strip  ****/
 
-/*****  header-center-II  ****/
+/*****  header-center-about  ****/
 
-header-center-II{	
+header-center-about{	
 	max-width: 960px;
 	display:block;
 	margin: 0 auto;
@@ -966,9 +967,9 @@ header-center-II{
 	text-align:center;  
 }
 
-.header-center-II-left,
-.header-center-II-center,
-.header-center-II-right{
+.header-center-about-left,
+.header-center-about-center,
+.header-center-about-right{
 	height:320px;
 	width:33.3%; 
 }
@@ -984,22 +985,22 @@ header-center-II{
 	line-height:157px;
 }
 
-.header-center-II-left>.blue{
+.header-center-about-left>.blue{
 	font-size:76px;
 }
 
-.header-center-II-center>.blue{
+.header-center-about-center>.blue{
 	font-size:108px;
 }
 
-.header-center-II-right>.blue{
+.header-center-about-right>.blue{
 	font-size:89px;
 }
-/*****  header-center-II  ****/
+/*****  header-center-about  ****/
 
-/*****  content-center-II  ****/
+/*****  content-top-about  ****/
 
-content-center-II{
+content-top-about{
 	background-image:url(../img/cont-cent-II.png);
 	max-width: 1366px;
     margin: 0 auto;
@@ -1008,44 +1009,44 @@ content-center-II{
     font-size:20px;
 }
 
-.content-center-II-left{
+.content-top-about-left{
 	text-align:right;
 }
 
-.content-center-II-left img{
+.content-top-about-left img{
 	border-radius:50%;
 	margin-top:55px;
 	margin-bottom:71px;
 }
 
-.content-center-II-border{
+.content-top-about-border{
 	border-top:1px solid #fff;
 	margin-right:70%;
 	padding-bottom:5px;
 }
 
-.content-center-II-right p{
+.content-top-about-right p{
 	font-weight:500;
 	font-style:italic;
 	padding-right:60px;
 	padding-top:90px;
 }
 
-.content-center-II-right span{
+.content-top-about-right span{
 	font-weight:700;
     text-transform:uppercase;
 }
-/*****  content-center-II  ****/
+/*****  content-top-about  ****/
 
-/*****  footer-top-II  ****/
+/*****  content-center-about  ****/
 
-footer-top-II{
+content-center-about{
 	display:block;
 	margin: 0 auto;
 	max-width: 960px;
 }
 
-footer-top-II h2{
+content-center-about h2{
 	font-family: HelveticaNeueCyr;
     font-weight: bold;
 	text-align:center;
@@ -1058,11 +1059,11 @@ footer-top-II h2{
 	text-align:center;
 	margin:58px 0 50px;
 }
-/*****  footer-top-II  ****/
+/*****  content-center-about  ****/
 
-/*****  footer-bottom-II  ****/
+/*****  content-bottom-about  ****/
 
-footer-bottom-II{
+content-bottom-about{
 	background-image:url(../img/bg-footer-II.png);
 	max-width: 1366px;
 	display:block;
@@ -1070,26 +1071,26 @@ footer-bottom-II{
     color: #fff;
 }
 
-footer-bottom-II div.container-fluid{
+content-bottom-about div.container-fluid{
 	padding: 0 200px;
 }
 
-.footer-bottom-II-center{
+.content-bottom-about-center{
 	text-align:center;
 }
 
-.footer-bottom-II-border{
+.content-bottom-about-border{
 	border-top:1px solid #fff;
 }
 
-.footer-bottom-II-center h2{
+.content-bottom-about-center h2{
 	font-family: HelveticaNeueCyr;
     font-weight: bold;
 	text-transform:uppercase;
 	margin:65px 0;
 }
 
-.footer-bottom-II-center p{
+.content-bottom-about-center p{
     font-weight: 500;
     font-style:italic;
     font-size:21px;
@@ -1097,19 +1098,19 @@ footer-bottom-II div.container-fluid{
     margin:20px 0;
 }
 
-.footer-bottom-II-center h3{
+.content-bottom-about-center h3{
     font-weight: 700;
 	text-transform:uppercase;
 	padding-bottom:143px;
 }
 
-/*****  footer-bottom-II  ****/
+/*****  content-bottom-about  ****/
 
 /* Large Devices, Wide Screens */
 @media only screen and ( min-width: 992px) and (max-width:1200px){
 
-header-top-II div.container-fluid,
-footer-bottom-II div.container-fluid{
+header-top-about div.container-fluid,
+content-bottom-about div.container-fluid{
 	padding: 0;
 }
 }
@@ -1117,12 +1118,12 @@ footer-bottom-II div.container-fluid{
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-header-top-II div.container-fluid,
-footer-bottom-II div.container-fluid{
+header-top-about div.container-fluid,
+content-bottom-about div.container-fluid{
 	padding: 0;
 }
 
-.strip-II-center{
+.strip-center{
 	line-height:30px;
 	padding:30px;
 }
@@ -1132,16 +1133,16 @@ footer-bottom-II div.container-fluid{
 	padding-right:20px;
 }
 
-.content-center-II-right p{
+.content-top-about-right p{
 	padding-right:30px;
 	padding-top:50px;
 }
 
-.content-center-II-border{
+.content-top-about-border{
 	margin-right:40%;
 }
 
-footer-top-II h2{
+content-center-about h2{
 	margin-top:28px;
 }
 
@@ -1149,7 +1150,7 @@ footer-top-II h2{
 	margin:28px 0;
 }
 
-.footer-bottom-II-center h2{
+.content-bottom-about-center h2{
 	margin:65px 0 45px;
 }
 }
@@ -1157,8 +1158,8 @@ footer-top-II h2{
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
 
-header-top-II div.container-fluid,
-footer-bottom-II div.container-fluid{
+header-top-about div.container-fluid,
+content-bottom-about div.container-fluid{
 	padding: 0;
 }
 
@@ -1167,23 +1168,23 @@ footer-bottom-II div.container-fluid{
 	padding-right:20px;
 }
 
-.header-top-II-center h1{
+.header-top-about-center h1{
     padding-top:80px;
 }
 
-.header-top-II-border{
+.header-top-about-border{
 	margin: 0 50px;
 }
 
-.strip-II-center{
+.strip-center{
 	font-size:18px;
 	line-height:25px;
 	padding:20px;
 }
 
-.header-center-II-left,
-.header-center-II-center,
-.header-center-II-right{
+.header-center-about-left,
+.header-center-about-center,
+.header-center-about-right{
 	height:250px;
 	width:100%; 
 }
@@ -1195,50 +1196,50 @@ footer-bottom-II div.container-fluid{
 	line-height:120px;
 }
 
-.header-center-II-left>.blue{
+.header-center-about-left>.blue{
 	font-size:50px;
 }
 
-.header-center-II-center>.blue{
+.header-center-about-center>.blue{
 	font-size:80px;
 }
 
-.header-center-II-right>.blue{
+.header-center-about-right>.blue{
 	font-size:65px;
 }
 
-content-center-II{
+content-top-about{
 	background:#53555C;
 }
 
-.content-center-II-left,
-.content-center-II-right{
+.content-top-about-left,
+.content-top-about-right{
 	text-align:center;
 }
 
-.content-center-II-left img{
+.content-top-about-left img{
 	margin-top:25px;
 	margin-bottom:0;
 }
 
-.content-center-II-right p{
+.content-top-about-right p{
 	padding-top:10px;
 }
 
-.content-center-II-border{
+.content-top-about-border{
 	margin-right:0;
 	padding-bottom:15px;
 }
 
-.content-center-II-right{
+.content-top-about-right{
 	padding-bottom:25px;
 }
 
-.content-center-II-right p{
+.content-top-about-right p{
     padding-right:0;
 }
 
-footer-top-II h2{
+content-center-about h2{
 	margin-top:25px;
 }
 
@@ -1247,32 +1248,37 @@ footer-top-II h2{
 	margin-bottom:15px;
 }
 
-.footer-bottom-II-center h3{
-	padding-bottom:60px;
+.content-bottom-about-center h3{
+	padding-bottom:15px;
 }
 }
 
 /* Extra small Devices, Phones */
 @media only screen and (max-width: 499px) {
 
-.header-top-II-center h1{
+.header-top-about-center h1{
 	padding-top:40px
 }
 
-.header-top-II-center h2{
+.header-top-about-center h2{
 	font-size:25px;
 	margin-top:10px;
 	padding-bottom:90px;
 }
 
-.footer-bottom-II-center h2{
-    margin:25px 0;
+.content-bottom-about-center h2{
+    margin:15px 0;
+}
+
+.content-bottom-about-center p,
+.content-bottom-about-center h3{
+	margin-top:15px;
 }
 }
 
-/********************************************  SECOND PAGE  ****************************************************/
+/********************************************  about PAGE  ****************************************************/
 
-/********************************************  THIRD PAGE  ****************************************************/
+/********************************************  contact PAGE  ****************************************************/
 
 /*********  content-top-III  ********/
 
@@ -1308,7 +1314,7 @@ content-top-III{
 
 /*********  content-center-III  ********/
 
-content-center-III{
+content-map{
     max-width: 1364px;
     margin: 0 auto;
     background-image: url(../img/ialta.png);
@@ -1318,9 +1324,9 @@ content-center-III{
 }
 /*********  content-center-III  ********/
 
-/*********  contact-III  ********/
+/*********  content-contact  ********/
 
-contact-III{
+content-contact{
     max-width: 850px;
     margin: 0 auto;
     display: block;    
@@ -1344,10 +1350,6 @@ contact-III{
     font-style:italic;
     font-size:15px;
 }
-
-/* .form-control{
-    background:#ddd;
-}   */
 
 .text-III{
 	width:725px;
@@ -1390,7 +1392,7 @@ button.btn.btn-default{
     float:right;
     margin-right:35px;
 }
-/*********  contact-III  ********/
+/*********  content-contact  ********/
 
 /* Large Devices, Wide Screens */
 @media only screen and ( min-width: 992px) and (max-width:1200px){
@@ -1542,7 +1544,7 @@ button.btn.btn-default{
 }
 }
 
-/********************************************  THIRD PAGE  ****************************************************/
+/********************************************  contact PAGE  ****************************************************/
 
 /********************************************  FOURTH PAGE VAR 1  ****************************************************/
 
@@ -1573,7 +1575,7 @@ button.btn.btn-default{
 
 /********************************************  FOURTH PAGE VAR 1  ****************************************************/
 
-/********************************************  FOURTH PAGE VAR 2  ****************************************************/
+/********************************************  service PAGE  ****************************************************/
 
 .btn.btn-default.btn-IV-tp{
 	float:none;
@@ -1638,4 +1640,4 @@ p.p-IV{
 }	
 }
 
-/********************************************  FOURTH PAGE VAR 2  ****************************************************/
+/********************************************  service PAGE  ****************************************************/
