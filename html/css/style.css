@@ -889,6 +889,23 @@ button.btn.btn-default:hover{
 
 /********************************************  index PAGE  ****************************************************/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********************************************  about PAGE  ****************************************************/
 
 /*****  header-top-about  ****/
@@ -1278,11 +1295,24 @@ content-center-about h2{
 
 /********************************************  about PAGE  ****************************************************/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********************************************  contact PAGE  ****************************************************/
 
-/*********  content-top-III  ********/
+/*********  content-top-contact  ********/
 
-content-top-III{
+content-top-contact{
 	max-width:1372px;
 	background:#e8e8e8;
 	display:block;
@@ -1290,7 +1320,7 @@ content-top-III{
 	padding:0 150px;
 }
 
-.content-top-III-icon{
+.content-top-contact-icon{
     width:33.3%;
     text-align:center;
     color:#2f3030;
@@ -1301,18 +1331,18 @@ content-top-III{
     padding-bottom:95px;
 }
 
-.content-top-III-icon span{
+.content-top-contact-icon span{
     font-size:25px;
 }
 
-.blok-III{
+.blok{
 	color:#5f5f5f;
 	font-size:90px;
 	margin-bottom:25px;
 }
-/*********  content-top-III  ********/
+/*********  content-top-contact  ********/
 
-/*********  content-center-III  ********/
+/*********  content-map  ********/
 
 content-map{
     max-width: 1364px;
@@ -1322,7 +1352,7 @@ content-map{
     display: block;    
     height:431px;
 }
-/*********  content-center-III  ********/
+/*********  content-map  ********/
 
 /*********  content-contact  ********/
 
@@ -1332,12 +1362,12 @@ content-contact{
     display: block;    
 }
 
-.mail-III{
+.mail-big{
     text-align:center;
     padding-bottom:66px;    
 }
 
-.mail-III h4{
+.mail-big h4{
     font-weight: 700; 
     text-transform: uppercase;
     font-size:20px;
@@ -1345,30 +1375,30 @@ content-contact{
     margin: 0;
 }
 
-.mail-III p{
+.mail-big p{
     font-weight: 200; 
     font-style:italic;
     font-size:15px;
 }
 
-.text-III{
+.mail-big .text{
 	width:725px;
 	height:40px;
 	margin-top:60px;
 } 
 
-.email-III,
-.tel-III{
+.mail-big .email,
+.mail-big .tel{
 	width:325px;
 	height:40px;
 	margin-top:30px;
 } 
 
-.email-III{
+.mail-big .email{
 	float:left;
 }
 
-.tel-III{
+.mail-big .tel{
 	float:right;
 	margin-right:35px;
 	margin-bottom:30px;
@@ -1397,7 +1427,7 @@ button.btn.btn-default{
 /* Large Devices, Wide Screens */
 @media only screen and ( min-width: 992px) and (max-width:1200px){
 
-content-top-III{
+content-top-contact{
 	padding: 0;
 }
 }
@@ -1405,39 +1435,39 @@ content-top-III{
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-content-top-III{
+content-top-contact{
 	padding: 0;
 }
 
-.content-top-III-icon{
+.content-top-contact-icon{
     font-size:25px;
     line-height:25px;
     padding:50px 15px;
 }
 
-.blok-III{
+.blok{
 	font-size:75px;
 }
 
-contact-III{
+content-contact{
     max-width: 650px;  
 }
 
-.text-III,
+.mail-big .text,
 textarea.form-control{
 	width:530px;
 } 
 
-.text-III{
+.mail-big .text{
 	margin-top:30px;
 } 
 
-.email-III,
-.tel-III{
+.mail-big .email,
+.mail-big .tel{
 	width:250px;
 } 
 
-.tel-III,
+.mail-big .tel,
 button.btn.btn-default{
 	margin-right:30px;
 }
@@ -1446,43 +1476,43 @@ button.btn.btn-default{
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
 
-content-top-III{
+content-top-contact{
 	padding: 0;
 	margin-top:30px;
 }
 
-.content-top-III-icon{
+.content-top-contact-icon{
 	width:100%;
     font-size:30px;
     line-height:30px;
     padding:50px 15px;
 }
 
-.mail-III{
+.mail-big{
 	padding: 0 0 35px;
 }
 
-contact-III{
+content-contact{
     max-width: 470px;  
 }
 
-form.form-III{
+.mail-big form{
     padding-right:30px;
 }
 
-.text-III,
+.mail-big .text,
 textarea.form-control,
-.email-III,
-.tel-III{
+.mail-big .email,
+.mail-big .tel{
 	width:350px;
 } 
 
-.text-III{
+.mail-big .text{
 	margin-top:30px;
 } 
 
-.email-III,
-.tel-III{
+.mail-big .email,
+.mail-big .tel{
 	float:none;	
 } 
 
@@ -1494,7 +1524,7 @@ button.btn.btn-default{
 /* Extra small Devices, Phones */
 @media only screen and (max-width: 734px) {
 
-content-center-III{
+content-map{
     max-width: 734px;
     margin: 0 auto;
     background-image: url(../img/ialta-III-767.png);  
@@ -1505,23 +1535,23 @@ content-center-III{
 /* Extra small Devices, Phones */
 @media only screen and (max-width: 499px) {
 
-.content-top-III-icon{
+.content-top-contact-icon{
     font-size:25px;
     padding:30px 15px;
 }
 
-.blok-III{
+.blok{
 	font-size:60px;
 }
 
-contact-III{
+content-contact{
     max-width: 290px;  
 }
 
-.text-III,
+.mail-big .text,
 textarea.form-control,
-.email-III,
-.tel-III{
+.mail-big .email,
+.mail-big .tel{
 	width:220px;
 	margin-right:0px;
 } 
@@ -1530,7 +1560,7 @@ textarea.form-control{
 	height:100px;
 }
 
-.text-III{
+.mail-big .text{
 	margin-top:30px;
 }  
 
@@ -1546,98 +1576,83 @@ button.btn.btn-default{
 
 /********************************************  contact PAGE  ****************************************************/
 
-/********************************************  FOURTH PAGE VAR 1  ****************************************************/
 
-.content-top-center-IV h2{
+
+
+
+
+
+
+
+
+
+
+/********************************************  service PAGE  ****************************************************/
+
+.content-top-center h2{
 	text-transform:uppercase;
 	text-align:center;
     font-weight:800;		
 }
 
-.btn.btn-default.btn-IV{
+.media-service .btn.btn-default.btn-tp,
+.media-service .btn.btn-default.btn-bttm{
 	float:none;
 	margin:0;
-	width:100%;
-	text-transform:uppercase;
-	font-weight: 800;
-	font-size:28px;
-	padding-top:15px;
-	padding-bottom:10px;
+    box-shadow: 0 5px 10px #000;  	
+	text-transform:uppercase;    	
 }
 
-/* Extra small Devices, Phones */
-@media only screen and (max-width: 499px) {
-
-.btn.btn-default.btn-IV{
-	font-size:18px;
-}	
-}
-
-/********************************************  FOURTH PAGE VAR 1  ****************************************************/
-
-/********************************************  service PAGE  ****************************************************/
-
-.btn.btn-default.btn-IV-tp{
-	float:none;
-	margin:0;
+.media-service .btn.btn-default.btn-tp{
 	width:100%;
-	text-transform:uppercase;
 	font-weight: 500;
 	font-size:22px;
     line-height:26px;
-    height:70px;
-    box-shadow: 0 5px 10px #000;     
+    height:70px;  
 }
 
-p.p-IV{
+.media-service p{
 	margin:20px 10px;
 	font-weight: 400;
 	font-size:14px;
 }
 
-.media-IV{
+.media-service .media{
 	position:relative;
 	overflow:visible;
 	margin-bottom:84px;
 }
 
-.btn.btn-default.btn-IV-bttm{
-	float:none;
+.media-service .btn.btn-default.btn-bttm{
     background:#db5e12;	
-	margin:0;
 	width:220px;
-	text-transform:uppercase;
 	font-weight: 700;
 	font-size:16px;
-    height:47px;
-    box-shadow: 0 5px 10px #000; 
+    height:47px; 
     position:absolute;
     bottom:-38px;
     right:0; 
 }
 
-.btn.btn-default.btn-IV-bttm:hover{
+.media-service .btn.btn-default.btn-bttm:hover{
     background: #eca749;
     text-shadow: 0px 3px 3px black; 
     color:#fff; 
-}
+}	
 
-/* Extra small Devices, Phones */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
-.fot-bot-IV{
+index-contacts{
 	margin-top:0;
 }
-}	
 
 /* Extra small Devices, Phones */
 @media only screen and (max-width: 499px) {
 
-.btn.btn-default.btn-IV-tp{
+.media-service .btn.btn-default.btn-tp{
 	font-size:18px;
     line-height:21px;
     height:60px;    
-}	
+}
+	
 }
 
 /********************************************  service PAGE  ****************************************************/
