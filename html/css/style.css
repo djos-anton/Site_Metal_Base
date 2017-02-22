@@ -910,6 +910,8 @@ button.btn.btn-default:hover{
 
 /*****  header-top-about  ****/
 
+/*
+
 header-top-about{
 	background-image:url(../img/welding-II.png);
 	max-width: 1366px;
@@ -942,6 +944,9 @@ header-top-about div.container-fluid{
 .header-top-about-center h2{
 	padding-bottom:130px;
 }
+
+*/
+
 /*****  header-top-about  ****/
 
 /*****  strip  ****/
@@ -950,7 +955,7 @@ strip{
 	background: #526ea1;
 	max-width: 1372px;
 	display:block;
-	margin: 0 auto;
+	margin: 60px auto 0;
 }
 
 .strip-center{
@@ -1126,7 +1131,7 @@ content-bottom-about div.container-fluid{
 /* Large Devices, Wide Screens */
 @media only screen and ( min-width: 992px) and (max-width:1200px){
 
-header-top-about div.container-fluid,
+/* header-top-about div.container-fluid, */
 content-bottom-about div.container-fluid{
 	padding: 0;
 }
@@ -1135,7 +1140,7 @@ content-bottom-about div.container-fluid{
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-header-top-about div.container-fluid,
+/* header-top-about div.container-fluid, */
 content-bottom-about div.container-fluid{
 	padding: 0;
 }
@@ -1175,7 +1180,7 @@ content-center-about h2{
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
 
-header-top-about div.container-fluid,
+/* header-top-about div.container-fluid, */
 content-bottom-about div.container-fluid{
 	padding: 0;
 }
@@ -1185,6 +1190,8 @@ content-bottom-about div.container-fluid{
 	padding-right:20px;
 }
 
+/*
+
 .header-top-about-center h1{
     padding-top:80px;
 }
@@ -1192,6 +1199,8 @@ content-bottom-about div.container-fluid{
 .header-top-about-border{
 	margin: 0 50px;
 }
+
+*/
 
 .strip-center{
 	font-size:18px;
@@ -1273,6 +1282,8 @@ content-center-about h2{
 /* Extra small Devices, Phones */
 @media only screen and (max-width: 499px) {
 
+/*
+
 .header-top-about-center h1{
 	padding-top:40px
 }
@@ -1282,6 +1293,8 @@ content-center-about h2{
 	margin-top:10px;
 	padding-bottom:90px;
 }
+
+*/
 
 .content-bottom-about-center h2{
     margin:15px 0;
@@ -1576,16 +1589,94 @@ button.btn.btn-default{
 
 /********************************************  contact PAGE  ****************************************************/
 
+/********************************************* partners PAGE  ***************************************************/
+
+logo-partners{
+    max-width: 1372px;
+    min-width: 320px;
+    margin: 60px auto 0;
+    display: block;
+	text-align:center;    
+}
+ 
+.first,
+.third{
+	min-height:310px;
+}
+
+.second{
+	min-height:200px;
+}
+
+index-contacts.contacts-partners{
+	margin-top:40px;
+}
 
 
+/* Large Devices, Wide Screens */
+@media only screen and ( min-width: 992px) and (max-width:1200px){
 
+.first{
+	min-height:250px;
+}
 
+.second{
+	min-height:160px;
+}
 
+.third{
+	min-height:285px;
+}
 
+}
 
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 
+.first{
+	min-height:200px;
+}
 
+.second{
+	min-height:125px;
+}
 
+.third{
+	min-height:215px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+
+.first,
+.second,
+.third{
+	min-height:0;
+}
+
+logo-partners img{
+    padding:10px 0;
+    width:50%;
+}
+
+}
+
+/* Extra small Devices, Phones */
+@media only screen and (max-width: 499px) {
+
+logo-partners{
+    margin: 10px auto 0;  
+}
+
+index-contacts.contacts-partners{
+	margin-top:0;
+}
+
+}
+
+/********************************************* partners PAGE  ***************************************************/
 
 /********************************************  service PAGE  ****************************************************/
 
