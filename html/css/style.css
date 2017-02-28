@@ -44,6 +44,27 @@ body{
 	font-family: FiraSans;
 }
 
+/****************** button all pages*****************/
+
+
+button.btn.btn-default{
+    background:#7ca5d9;
+    color:#fff;
+    border-radius: 0;
+    border: none;
+    transition: all .5s;
+}
+
+button.btn.btn-default:hover{
+    background: #4b84cc;
+    text-shadow: 0px 3px 3px black; 
+    color:#fff; 
+}
+
+
+/****************** button all pages*****************/
+
+
 /********************************************  index PAGE  ****************************************************/
 
 /*** header ***/
@@ -341,7 +362,7 @@ media-center{
 
 h4.media-heading,
 .media-body p{
-    margin:0 30px;
+    margin:0 30px 10px;
     	
 }
 
@@ -358,6 +379,7 @@ h4.media-heading {
 /*** media-center ***/
 
 /*** index-contacts ***/
+
 index-contacts{
     max-width: 1372px;
     margin: 40px auto 0;
@@ -371,13 +393,13 @@ index-contacts{
 .index-contacts-left{
     padding-top: 14%;
     padding-right:10%;
+    text-align:right;           
 }
 
 .index-contacts-left h3,
 .index-contacts-left h5{
     font-weight: 700; 
     margin:0;
-    text-align:right;
 }
 
 .index-contacts-left h3{
@@ -388,24 +410,19 @@ index-contacts{
     font-size:25px;
 }
 
-.mail{
+form.mail{
     background: rgba(255, 255, 255, 0.65);
     width: 400px;
     height: 320px;
     border-radius: 8px;
     margin: 50px 0 61px 20%;
-}
-
-.mail h4,
-.mail p{
-    padding-left: 36px;	
+    padding: 40px;
 }
 
 .mail h4{
     font-weight: 700; 
     text-transform: uppercase;
     font-size:20px;
-    padding-top:40px;
     margin: 0;
 }
 
@@ -414,20 +431,16 @@ index-contacts{
     font-size:15px;
 }
 
-form{
-    padding-left: 30px;
-}
-
 .form-group{
     margin-top:30px;
-    width:340px;
+    width:320px;
 }
 
 .form-control{
     background:#ddd;
 }   
 
-button.btn.btn-default{
+button.btn.btn-default.btn-frm{
     background:#7ca5d9;
     color:#fff;
     margin-top:15px;
@@ -437,10 +450,10 @@ button.btn.btn-default{
     border: none;
     padding-left:20px;
     padding-right:20px;
-    margin-left:210px;
+    margin-right:0;
 }
 
-button.btn.btn-default:hover{
+button.btn.btn-default.btn-frm:hover{
     background: #4b84cc;
     text-shadow: 0px 3px 3px black; 
     color:#fff; 
@@ -538,13 +551,13 @@ content-bottom .container-fluid{
     left: 71%;  
 }
 
-.mail{
+form.mail{
     margin-left:30px;
 }
 
 h4.media-heading,
 .media-body p{
-    margin:0 10px;
+/*     margin:0 10px 10px; */
 }
 
 index-contacts{
@@ -653,7 +666,7 @@ index-contacts{
     font-size:20px;
 }
 
-.mail{
+form.mail{
     margin-left:30px;
 }
 
@@ -792,7 +805,7 @@ index-contacts{
     text-align:center;
 }
 
-.mail{
+form.mail{
 	margin:0 auto 24px;
 	height:300px;
 }
@@ -848,29 +861,27 @@ h4.media-heading{
     font-size:14px; 
 }
 
+.index-contacts-left{
+	padding-top:15px;
+}
+
 .index-contacts-right{
 	padding:0;
 }
 
-.mail{
+form.mail{
     width: 290px;
     height: 260px;
-    margin:30px auto 33px;
+    margin:15px auto 33px;
+    padding:20px;    
 }
 
 .mail h4{
-    font-size:18px;
-    padding-top:20px;
+    font-size:17px;
 }
 
 .mail p{
-    font-size:14px;
-}
-
-.mail h4,
-.mail p,
-form{
-    padding-left: 20px;
+    font-size:13px;
 }
 
 .form-group{
@@ -878,14 +889,15 @@ form{
     width:250px;
 }
 
-button.btn.btn-default{
+button.btn.btn-default.btn-frm{
     margin-top:8px;
-    margin-left:0;
+    margin-left:130px;
 }
 
-button.btn.btn-default,
-button.btn.btn-default:hover{
+button.btn.btn-default.btn-frm,
+button.btn.btn-default.btn-frm:hover{
     font-size: 16px;
+
 }	
 }
 
@@ -1372,14 +1384,14 @@ content-map{
 /*********  content-contact  ********/
 
 content-contact{
-    max-width: 850px;
+    max-width: 780px;
     margin: 0 auto;
-    display: block;    
+    display: block;  
 }
 
 .mail-big{
     text-align:center;
-    padding-bottom:66px;    
+    padding-bottom:66px;        
 }
 
 .mail-big h4{
@@ -1397,14 +1409,14 @@ content-contact{
 }
 
 .mail-big .text{
-	width:725px;
+	width:720px;
 	height:40px;
 	margin-top:60px;
 } 
 
 .mail-big .email,
 .mail-big .tel{
-	width:325px;
+	width:330px;
 	height:40px;
 	margin-top:30px;
 } 
@@ -1415,12 +1427,11 @@ content-contact{
 
 .mail-big .tel{
 	float:right;
-	margin-right:35px;
 	margin-bottom:30px;
 }
 
 textarea.form-control{
-    width:725px;
+    width:720px;
 	height:190px;
 	color:#929292;	
 }
@@ -1432,12 +1443,18 @@ textarea.form-control{
 	margin-top:20px;
 }
 
-button.btn.btn-default{
+button.btn.btn-default.btm-bg-frm{
     margin-top:30px;
     float:right;
-    margin-right:35px;
+    font-size: 16px;
+    box-shadow: 0 2px 0px #3a5270;
+    padding-left:20px;
+    padding-right:20px;
+
 }
+
 /*********  content-contact  ********/
+
 
 /* Large Devices, Wide Screens */
 @media only screen and ( min-width: 992px) and (max-width:1200px){
@@ -1470,7 +1487,7 @@ content-contact{
 
 .mail-big .text,
 textarea.form-control{
-	width:530px;
+	width:100%;
 } 
 
 .mail-big .text{
@@ -1479,13 +1496,9 @@ textarea.form-control{
 
 .mail-big .email,
 .mail-big .tel{
-	width:250px;
+	width:260px;
 } 
 
-.mail-big .tel,
-button.btn.btn-default{
-	margin-right:30px;
-}
 }
 
 /* Small Devices, Tablets */
@@ -1504,22 +1517,19 @@ content-top-contact{
 }
 
 .mail-big{
-	padding: 0 0 35px;
+	padding: 0 auto;
+	padding-bottom:40px;	
 }
 
 content-contact{
-    max-width: 470px;  
-}
-
-.mail-big form{
-    padding-right:30px;
+    max-width: 450px;  
 }
 
 .mail-big .text,
 textarea.form-control,
 .mail-big .email,
 .mail-big .tel{
-	width:350px;
+	width:100%;
 } 
 
 .mail-big .text{
@@ -1567,8 +1577,7 @@ content-contact{
 textarea.form-control,
 .mail-big .email,
 .mail-big .tel{
-	width:220px;
-	margin-right:0px;
+	width:100%;
 } 
 
 textarea.form-control{
@@ -1579,17 +1588,20 @@ textarea.form-control{
 	margin-top:30px;
 }  
 
-button.btn.btn-default{
+button.btn.btn-default.btm-bg-frm{
 	margin:0;
 }
 
 .checkbox,
-button.btn.btn-default{
+button.btn.btn-default.btm-bg-frm{
 	float:none;
 }
+
 }
 
 /********************************************  contact PAGE  ****************************************************/
+
+
 
 /********************************************* objects PAGE  ***************************************************/
 
